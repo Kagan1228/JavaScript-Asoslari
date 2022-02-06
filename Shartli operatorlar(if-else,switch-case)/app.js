@@ -25,4 +25,22 @@ else{
     console.log('xatolik');
 }
 ///////////////////////////////////////////////////////
+//ternary
+const num = 10;
+num <= 90 ? console.log('ok'):console.log("not Right");
+///////////////////////////////////////////////////////
+
 //switch case
+
+switch (num){
+    case 10:
+        console.log(`10`);
+        break;
+
+    case 30:
+        console.log('30');
+        break;
+    default:
+        console.log('Topilmadi');
+        
+}
