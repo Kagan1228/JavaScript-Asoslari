@@ -20,6 +20,11 @@ const obj = {
     bg: "coral",
   },
 };
+const ob = {
+  first:20,
+  col:20
+}
+console.log(Object.keys(ob).length);
 
 console.log(Object.keys(obj).length);
 
