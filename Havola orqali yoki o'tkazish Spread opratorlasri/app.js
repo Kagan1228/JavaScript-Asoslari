@@ -78,4 +78,9 @@ function func(a,b,c){
     console.log(c);
 }
 const numbers = [1,2,3];
-func(...numbers)
+func(...numbers);;
+
+function spreadOp(a,b,c,...d){
+    console.log(a,b,c,d);
+}
+spreadOp(1,2,3,4,5,6,7,8)
